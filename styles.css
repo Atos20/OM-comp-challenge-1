@@ -1,4 +1,20 @@
 header {
   box-sizing: border-box;
   background-color: #08415C
+
+}
+
+button {
+  border: none;
+  background-color: #EBBAB9;
+  border-radius: 1rem;
+  font-family: 'Muli';
+  font-size: 10pt;
+  padding: 5px;
+  cursor: pointer
+  border: 0;
+}
+
+button:hover {
+  background-color: #FBE8E7
 }
