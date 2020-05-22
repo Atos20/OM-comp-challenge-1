@@ -1,16 +1,35 @@
 body{
-  background-color: #CCDBDC
-
+  background-color: #CCDBDC;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  height: 200px;
+  width: 100%;
 }
 
-header {
-  background-color: #08415C
-}
-
-.nav-bar{
-  width: 100px;
+.nav-container {
+  width: 100%;
+  background-color: #08415C;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+
+}
+
+.logo {
+ background-color: white;
+}
+
+ul {
+  background-color: pink;
+  color: white;
+  width: 100%;
+  display: inline-flex;
+}
+
+li {
+  padding-left: 20px;
+  display: auto;
+  list-style-type: none;
+
 
 }
 
@@ -23,18 +42,61 @@ button {
   padding: 5px;
   cursor: pointer
   border: 0;
-  margin:20px;
+  margin: 40px;
 }
 
 button:hover {
   background-color: #FBE8E7
 }
 
-img {
-  display: flex;
-  width: 20%;
-  height: auto;
-  padding: 20px;
-  margin: 10px
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~ box CONTAINERS SECTION 3~~~~~~ */
 
+.wrapper {
+  font-style: oblique;
+  font-size: 50px;
+  width: 80%;
+  margin: 0 auto;
+  border: 5px dashed;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 40px;
+  grid-auto-rows: 500px;
+}
+
+.box1 {
+  background-color: blue;
+}
+
+.box2 {
+  background-color: #418ADE;
+}
+
+.box3 {
+  background-color: #63A79C;
+}
+
+.box4 {
+  background-color: #CE7272;
+}
+
+.box5 {
+  background-color: #F2BF5E;
+}
+
+.box6 {
+  background-color: #DAE3E5;
+}
+
+.box7 {
+  background-color: #AF9164;
+}
+
+.box8 {
+  background-color: #E4572E;
+}
+
+footer {
+  margin: 100px;
+  border: 5px dashed;
 }
