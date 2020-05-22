@@ -14,8 +14,9 @@ body{
 
 }
 
-.logo {
+h1 {
  background-color: white;
+ font-size: 45px;
 }
 
 ul {
@@ -60,40 +61,48 @@ button:hover {
   border: 5px dashed;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-gap: 40px;
+  grid-gap: 20px;
   grid-auto-rows: 500px;
 }
 
 .box1 {
   background-color: blue;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 .box2 {
   background-color: #418ADE;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 .box3 {
   background-color: #63A79C;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 .box4 {
   background-color: #CE7272;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 .box5 {
   background-color: #F2BF5E;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 .box6 {
   background-color: #DAE3E5;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 .box7 {
   background-color: #AF9164;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 .box8 {
   background-color: #E4572E;
+  box-shadow: 10px 5px 5px #888888;
 }
 
 footer {
