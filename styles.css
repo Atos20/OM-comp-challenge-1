@@ -1,40 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   background-color: #CCDBDC;
-  background-position: 0 0, 50px 50px;
-  background-size: 100px 100px;
-  height: 200px;
-  width: 100%;
+  height: 100%;
+  /* min-width: 100%; */
+  max-width: 100%;
+  font-family: 'Muli', monospace, sans-serif;
+  margin: auto;
 }
 
 .nav-container {
   width: auto;
   background-color: #08415C;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: .2fr 1fr 1fr ;
+  grid-column-gap: 1em;
+}
+.bussines-name{
+  grid-column: 3 / 4;
+  grid-row: 2 /2 ;
+  font
+}
+
+.menu-bar{
 
 }
 
-h1 {
- background-color: white;
- font-size: 45px;
-}
-
-ul {
-  background-color: pink;
-  color: white;
-  width: 100%;
-  display: inline-flex;
-}
-
-li {
-  padding-left: 20px;
-  display: auto;
-  list-style-type: none;
-
-
-}
-
-button {
+.nav-button {
   border: none;
   background-color: #EBBAB9;
   border-radius: 1rem;
@@ -46,12 +40,11 @@ button {
   margin: 40px;
 }
 
-button:hover {
+.nav-button:hover {
   background-color: #FBE8E7
 }
 
-h2 {
-  font-family: 'Muli';
+.title {
   font-size: 50px;
   padding: 1em;
   border: 5px dashed;
@@ -60,27 +53,40 @@ h2 {
 /*~~~~ box CONTAINERS SECTION 3~~~~~~ */
 
 .wrapper {
-  font-style: 'Muli';
+  /* max-width: 20em; */
   font-size: 50px;
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
   border: 5px dashed;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-rows: minmax(500px, auto);
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  grid-auto-rows: 500px;
   grid-gap: .5em;
 }
 
-
-.box {
-  background-color: #418ADE;
-  box-shadow: 5px 5px 5px #888888;
-
-}
-
-img {
+.card-image {
   width: 100%;
 }
+
+.box {
+  border: 5px dashed;
+  background-color: #418ADE;
+  box-shadow: 0px 0px 20px #888888;
+
+}
+
+.grid-button {
+  border-radius:  2em;
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  display: inline-block;
+  margin:0 0.3em 0.3em 0;
+
+
+}
+
 footer {
   margin: 100px;
   border: 5px dashed;
