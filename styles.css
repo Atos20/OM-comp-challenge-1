@@ -67,10 +67,9 @@ h2 {
   border: 5px dashed;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-rows: minmax(600px, auto);
-  grid-gap: 20px;
+  grid-auto-rows: minmax(500px, auto);
+  grid-gap: .5em;
 }
-
 
 
 .box {
@@ -78,6 +77,9 @@ h2 {
   box-shadow: 5px 5px 5px #888888;
 }
 
+img {
+  width: 100%;
+}
 footer {
   margin: 100px;
   border: 5px dashed;
