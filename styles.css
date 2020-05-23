@@ -2,15 +2,15 @@
 /*~~~~~~~~~global properties~~~~~~ */
 * {
   box-sizing: border-box;
+  /* if we r use paddgin it won't affect */
 }
 
 body{
   background-color: #CCDBDC;
-  height: 100%;
-  /* min-width: 100%; */
   max-width: 100%;
   font-family: 'Muli', monospace, sans-serif;
   margin: auto;
+  /* line-height: 2; */
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~NAVIGATION BAR SECTION~~~~~~ */
@@ -18,28 +18,25 @@ body{
   width: auto;
   background-color: #08415C;
   display: grid;
-  grid-template-columns: .2fr 1fr 1fr ;
-  padding: 2em;
+  grid-template-columns: 6fr 3fr 3fr .5fr;
+  padding: 0;
 }
 .bussines-name {
   grid-column: 3 / 4;
-  grid-row: 2 / 4 ;
-  text-align: right;
-  margin-right: 10%;
+  grid-row: 3 / 4 ;
 }
 
 .menu-bar{
-  font-size: 25px;
-  grid-row: 2 / 3;
+  grid-row: 2 / 4;
   grid-column: 1 / 3;
-  grid-gap: 1em;
+  grid-gap: 2em;
   display: flex;
   list-style-type: none;
-  margin: 0;
 }
 
 .menu-list{
-
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .menu-list:hover{
@@ -47,32 +44,31 @@ body{
   opacity: .3;
 }
 
-.nav-button {
+.log-in-button {
   border: none;
-  background-color: #EBBAB9;
-  border-radius: 1rem;
+  background-color: none;
+  border-radius: 1em;
   font-family: 'Muli';
-  font-size: 15pt;
-  padding: 5px;
+  font-size: 10pt;
   cursor: pointer;
-  border: 0;
-  margin: 8px;
-  position: relative;
+  position: absolute;
+  padding: .5rem 2rem .5rem;
   grid-column: 3 / 4;
-
+  justify-self: right;
+  /* moved box to the  right*/
 }
 
-.nav-button:hover {
+.log-in-button:hover {
   background-color: #FBE8E7
 }
 
 .title {
-  font-size: 50px;
+  font-size: 30px;
   padding: 1em;
-  border: 5px dashed;
+  margin: auto;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~CONTAINER SECTION~~~~~~ */
+/*~~~~~~~~~WRAPPER SECTION~~~~~~ */
 
 .wrapper {
   /* max-width: 20em; */
@@ -81,44 +77,62 @@ body{
   margin: 0 auto;
   border: 5px dashed;
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
-  grid-auto-rows: 500px;
+/* two function within the grid property */
+  /* grid-auto-rows: 500px; */
   grid-gap: .5em;
+}
+
+.nested-box {
+  box-shadow: 0px 0px 20px #888888;
+  font-size: 15px;
+  display: grid;
 }
 
 .card-image {
   width: 100%;
+  height: 90%;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
-.box {
-  border: 5px dashed;
-  background-color: #418ADE;
-  box-shadow: 0px 0px 20px #888888;
-
+.card-name {
+  margin: 1em;
+  grid-column: 1 / 3;
 }
+
+ p {
+  margin: 1em;
+  grid-column: 1 / 3;
+ }
 
 .grid-button {
   border-radius:  2em;
-  background-color: Transparent;
   border: none;
   cursor:pointer;
-  display: inline-block;
-  margin:0 0.3em 0.3em 0;
-
-
+  grid-area: 1 / 1 / 2 / 2;
+  align-self: start;
+  justify-self: start;
+  z-index: 1;
+  margin: 10px;
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~WRAPPER END~~~~~~ */
 footer {
   margin: 100px;
   border: 5px dashed;
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~MEDIA QUERIES~~~~~~ */
-@media (max-width: 800px){
+@media (max-width: 600px){
   .menu-bar {
     display: grid;
-    font-size: 15px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+    grid-template-rows: 1fr;
+    grid-row: 1 / 5;
+  }
+
+  .title {
+    text-align: center;
   }
 }
