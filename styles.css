@@ -16,16 +16,31 @@ body{
   background-color: #08415C;
   display: grid;
   grid-template-columns: .2fr 1fr 1fr ;
-  grid-column-gap: 1em;
+  padding: 2em;
 }
-.bussines-name{
+.bussines-name {
   grid-column: 3 / 4;
-  grid-row: 2 /2 ;
-  font
+  grid-row: 2 / 4 ;
+  text-align: right;
+  margin-right: 10%;
 }
 
 .menu-bar{
+  font-size: 25px;
+  grid-row: 2 / 3;
+  grid-column: 1 / 3;
+  grid-gap: 1em;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
 
+.menu-list{
+  color: gold;
+}
+
+.menu-list:hover{
+  color: gold;
 }
 
 .nav-button {
@@ -33,11 +48,14 @@ body{
   background-color: #EBBAB9;
   border-radius: 1rem;
   font-family: 'Muli';
-  font-size: 35pt;
+  font-size: 15pt;
   padding: 5px;
-  cursor: pointer
+  cursor: pointer;
   border: 0;
-  margin: 40px;
+  margin: 80px;
+  position: relative;
+  grid-column: 3 / 4;
+
 }
 
 .nav-button:hover {
