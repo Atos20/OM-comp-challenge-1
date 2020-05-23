@@ -36,11 +36,12 @@ body{
 }
 
 .menu-list{
-  color: gold;
+
 }
 
 .menu-list:hover{
-  color: gold;
+  color: green;
+  opacity: .3;
 }
 
 .nav-button {
@@ -52,7 +53,7 @@ body{
   padding: 5px;
   cursor: pointer;
   border: 0;
-  margin: 80px;
+  margin: 8px;
   position: relative;
   grid-column: 3 / 4;
 
@@ -108,4 +109,12 @@ body{
 footer {
   margin: 100px;
   border: 5px dashed;
+}
+
+@media (max-width: 800px){
+  .menu-bar {
+    display: grid;
+    font-size: 15px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
 }
