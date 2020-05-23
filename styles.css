@@ -1,3 +1,5 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~global properties~~~~~~ */
 * {
   box-sizing: border-box;
 }
@@ -10,7 +12,8 @@ body{
   font-family: 'Muli', monospace, sans-serif;
   margin: auto;
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~NAVIGATION BAR SECTION~~~~~~ */
 .nav-container {
   width: auto;
   background-color: #08415C;
@@ -69,7 +72,7 @@ body{
   border: 5px dashed;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/*~~~~ box CONTAINERS SECTION 3~~~~~~ */
+/*~~~~~~~~~CONTAINER SECTION~~~~~~ */
 
 .wrapper {
   /* max-width: 20em; */
@@ -110,7 +113,8 @@ footer {
   margin: 100px;
   border: 5px dashed;
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~MEDIA QUERIES~~~~~~ */
 @media (max-width: 800px){
   .menu-bar {
     display: grid;
