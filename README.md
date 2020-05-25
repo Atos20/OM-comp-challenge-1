@@ -28,6 +28,25 @@ On the informational card the user finds more buttons to interact with. On the l
 
 ![Screen Shot 2020-05-25 at 3 14 45 AM](https://user-images.githubusercontent.com/56229864/82798573-ec1cff00-9e35-11ea-8261-a4ff494a58a2.png)
 
+## Technical organization
+
+The main layout structure use to make this project was CSS grid. This layout was implemeneted mainly on two sections, the navigation bar was the first one and then the container section in the page body.
+
+![Main container](https://user-images.githubusercontent.com/56229864/82802317-e9bda380-9e3b-11ea-8a86-2636357d52b6.png)
+
+I was able to have more practice with thgrid structure with the informational cards that required careful organization to apply the required properties ans values to the gridto acomplish the desired results.
+
+![A container within the container](https://user-images.githubusercontent.com/56229864/82802765-a6b00000-9e3c-11ea-87a8-9d9ca2619e38.png)
+
+## Media queries
+
+The importance to add responsiveness to the website was accomplished by using media queries. The use of media queries in this project was used to define by a min-width  of 700px.
+
+![Media queries](https://user-images.githubusercontent.com/56229864/82802953-f55d9a00-9e3c-11ea-81da-61038ba685f8.png)
+
+The main changes that I targeted with media queries was the navigation bar and the body container that needed to become more dynamic with the screen size.
+![Width less than 700px](https://user-images.githubusercontent.com/56229864/82803216-5dac7b80-9e3d-11ea-94d8-1eb7f1688d4e.png)
+
 ## Reflection
 ###
 +Animal hospital is the product of [Orlando Murcio](https://www.github.com/atos20) and it is the first solo project as a deliverable for the Module 1 at the Turing School of Software and Design. It's an excersize that focused primarely on HTML and CSS concepts.
@@ -41,5 +60,5 @@ The next step would be to add the functionality using Java script.
 
 ### In Closing
 
-Not having any prior experience creating HTML and CSS files before this project made it really challnging. I belive that there is so much I still need to work on but I am proud of the result I  obtained today. I will work on refacoring this project so I can fully show my own style.
+Not having any prior experience creating HTML and CSS files before this project made it really challenging to create a webage with all the characterics that I implemented. I belive that there is so much I still need to work on but I am proud of the result I  obtained today. I will work on refactoring. The implementations of media queries were important in the making of this project and I am looking forward to keep increasing my knowledge on this topic.
 
