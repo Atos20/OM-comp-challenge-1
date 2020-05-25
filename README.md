@@ -15,7 +15,7 @@ This project has been adapted to meet the requirements of an animal hospital tha
 ## Webpage Structure
 
 Navigation bar:
-This section of the webpages holds the about, services, appointments, and log-in button. Here I have decided to make use of a single icon in the log-in button instead of using icons on the rest of the buttons.
+This section of the webpages holds the about, services, appointments, and log-in button.
 
 ![Navigation bar](https://user-images.githubusercontent.com/56229864/82798059-410c4580-9e35-11ea-80e7-e81778af5fec.png)
 
