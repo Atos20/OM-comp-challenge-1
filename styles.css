@@ -29,6 +29,7 @@ body{
   align-self: end;
 }
 
+
 .bussines-name {
   grid-column: 3 / 4;
   grid-row: 3 / 4 ;
@@ -192,7 +193,7 @@ margin: 2px 0px 0px 15px;
   grid-area: 10 / span 2 ;
   font-size: 12px;
   padding: 15px;
-  margin-top: -10px;
+  margin-top: -18px;
   letter-spacing: 2px;
 }
 
@@ -202,7 +203,7 @@ margin: 2px 0px 0px 15px;
   justify-self: start;
   align-self: end;
   padding: 15px;
-  margin: -25px 5px 0px 0px;
+  margin: -35px 5px 0px 0px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~WRAPPER END~~~~~~ */
