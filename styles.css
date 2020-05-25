@@ -1,9 +1,7 @@
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~global properties~~~~~~ */
+
 * {
   box-sizing: border-box;
   font-family: 'Muli',  Helvetica, Arial, sans-serif;
-  /* if we r use paddgin it won't affect */
 }
 
 body{
@@ -11,8 +9,7 @@ body{
   max-width: 100%;
 
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~NAVIGATION BAR SECTION~~~~~~ */
+
 .nav-container {
   width: auto;
   background-color: #08415C;
@@ -83,17 +80,16 @@ body{
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: .5em;
+  /* grid-gap: -1em; */
 }
 
 .nested-box {
   box-shadow: 0px 0px 20px #888888;
   font-size: 15px;
   display: grid;
-  /* text-align: center; */
-  margin: 1em;
+  margin: .3em;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(10, 40px);
+  grid-template-rows: repeat(10, 30px);
   background-color: #FCFCF6;
 }
 
@@ -104,9 +100,9 @@ body{
   align-self: start;
   justify-self: start;
   z-index: 1;
-  margin: 10px;
+  margin: 5px;
   font-size: 15px;
-  opacity: .5em;
+  opacity: -1em;
 }
 
 .diagnosis-image{
@@ -134,9 +130,11 @@ body{
 .doc-intinials {
   grid-area: 1 / 2 / 3 / 2;
   justify-self: right;
-  margin: 15px;
+  margin: 10px;
   color: #337CA0;
   box-shadow: 0px 0px 20px #888888;
+  font-size: 15px;
+  text-align: center;
 }
 
 .pet-name {
@@ -144,12 +142,13 @@ body{
  margin: 15px;
  align-self: start;
  color: #CC7178;
+ margin: 5px 0px 0px 15px;
 }
 
 .owner-name {
   grid-area: 5 / span 2 ;
-  margin: auto;
-  align-self: start;
+  margin: 5px 0px 0px 15px;
+  text-align: left;
 }
 
 .url {
@@ -160,7 +159,7 @@ background-color: #A8B7AB;
 width:90%;
 padding: 15px;
 text-align: right;
-margin-top: -5px;
+margin: 2px 0px 0px 15px;
 }
 
 .diagnosis {
@@ -176,7 +175,7 @@ margin-top: -5px;
   grid-area: 8 / span 2 ;
   font-size: 11px;
   padding: 15px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: -30px;
   letter-spacing: 1px;
 }
@@ -185,7 +184,7 @@ margin-top: -5px;
   grid-area: 9 / span 2 ;
   font-size: 10px;
   padding: 15px;
-  margin-top: -20px;
+  margin-top: 1px;
   letter-spacing: 1px;
 }
 
@@ -193,7 +192,7 @@ margin-top: -5px;
   grid-area: 10 / span 2 ;
   font-size: 12px;
   padding: 15px;
-  margin-top: -40px;
+  margin-top: -10px;
   letter-spacing: 2px;
 }
 
@@ -203,7 +202,7 @@ margin-top: -5px;
   justify-self: start;
   align-self: end;
   padding: 15px;
-  margin-top: -120px;
+  margin: -25px 5px 0px 0px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~WRAPPER END~~~~~~ */
