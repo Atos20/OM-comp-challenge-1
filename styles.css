@@ -23,7 +23,7 @@ body{
   grid-column: 1 / 2;
   grid-gap: 1em;
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(3, 140px);
   justify-content: start;
   list-style-type: none;
   align-self: end;
