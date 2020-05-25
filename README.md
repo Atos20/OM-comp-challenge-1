@@ -28,4 +28,18 @@ On the informational card the user finds more buttons to interact with. On the l
 
 ![Screen Shot 2020-05-25 at 3 14 45 AM](https://user-images.githubusercontent.com/56229864/82798573-ec1cff00-9e35-11ea-8261-a4ff494a58a2.png)
 
-![Patient's status](https://user-images.githubusercontent.com/56229864/82799942-140d6200-9e38-11ea-97fc-ee94ce90e1a0.png)
+## Reflection
+###
++Animal hospital is the product of [Orlando Murcio](https://www.github.com/atos20) and it is the first solo project as a deliverable for the Module 1 at the Turing School of Software and Design. It's an excersize that focused primarely on HTML and CSS concepts.
+
+### Future Goals
+As I workded on this project I was exposed to more ideas from users and doctor's and I belive that more features could be added to ameliorate the user experience. There is more work to be done about defining more what kind of information can be provided to the public so that information is clear and satifies the needs of the clients and doctors. 
+
+Thecnically speaking,  I belive that the CSS file can be refactored so it looks cleaner and less repetitive. I also think that the HTML file could have been structured better and that the name classes could haven been defined better. As a software developre I am always lookig for ways to become more productive and I belive that this project has created a foundation for how I will structure the HTML and CSS files.
+
+The next step would be to add the functionality using Java script.
+
+### In Closing
+
+Not having any prior experience creating HTML and CSS files before this project made it really challnging. I belive that there is so much I still need to work on but I am proud of the result I  obtained today. I will work on refacoring this project so I can fully show my own style.
+
