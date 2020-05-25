@@ -27,7 +27,7 @@ On the page body, the user can find and look at current and/or old patients and 
 #
 ![Main page](https://user-images.githubusercontent.com/56229864/82797390-4026e400-9e34-11ea-8993-37d211e7b074.png)
 
-On the informational card the user finds more buttons to interact with. On the left side of the picture of each patient the **top button** or **diagnostic** button allows the user to find out more about what kind of treatment the patient currently is undertaking as well as the health status. The second buttons or **bill button** lets the user know of current bills or past due bills. The third button shows the current medications prescribed by the doctor.
+On the informational card the user finds more buttons to interact with. On the left side of the picture of each patient the **top button** or **diagnostic** button allows the user to find out more about what kind of treatment the patient is currently undertaking as well as the health status. The second button or **bill button** lets the user know of current bills or past due bills. The third button shows the current medications prescribed by the doctor.
 
 ![Screen Shot 2020-05-25 at 3 14 45 AM](https://user-images.githubusercontent.com/56229864/82798573-ec1cff00-9e35-11ea-8261-a4ff494a58a2.png)
 
@@ -37,7 +37,7 @@ The main layout structure used to make this project was the CSS grid. This layou
 
 ![Main container](https://user-images.githubusercontent.com/56229864/82802317-e9bda380-9e3b-11ea-8a86-2636357d52b6.png)
 
-I was able to have more practice with the grid structure while making the informational cards, these required careful organization to apply properties and values to the grid and accomplish the desired results.
+I was able to have more practice with the grid structure while making the informational cards; these required careful organization to apply properties and values to the grid and accomplish the desired results.
 
 ![A container within the container](https://user-images.githubusercontent.com/56229864/82802765-a6b00000-9e3c-11ea-87a8-9d9ca2619e38.png)
 
@@ -54,10 +54,10 @@ The main changes that I targeted with media queries were the navigation bar and 
 
 ## Reflection
 ###
-+Animal hospital is the product of [Orlando Murcio](https://www.github.com/atos20) and it is the first solo project as a deliverable for Module 1 at the Turing School of Software and Design. It's an exercise that focused primarily on HTML and CSS concepts.
++Animal hospital is the product of [Orlando Murcio](https://www.github.com/atos20) and it is the first solo project as a deliverable for Module 1 at the Turing School of Software and Design. It is an exercise that focused primarily on HTML and CSS concepts.
 
 ### Future Goals
-As I worked on this project I was exposed to more ideas from users and doctor's and I believe that more features could be added to ameliorate the user experience. There is more work to be done about defining more what kind of information can be provided to the public so that information is clear and satisfies the needs of the clients and doctors. 
+As I worked on this project I was exposed to more ideas from users and doctors and I believe that more features could be added to ameliorate the user experience. There is more work to be done about defining more what kind of information can be provided to the public so that information is clear and satisfies the needs of the clients and doctors. 
 
 Technically speaking,  I believe that the CSS file can be refactored so it looks cleaner and less repetitive. I also think that the HTML file could have been structured better and that the name classes could haven been defined better. As a software developer I am always looking for ways to become more productive and I believe that this project has created a foundation for how I will structure the HTML and CSS files.
 
@@ -65,4 +65,4 @@ The next step would be to add the functionality using Javascript.
 
 ### In Closing
 
-Not having any prior experience creating HTML and CSS files before this project made it challenging to create a webpage with all the characteristics that I implemented. I believe that there is so much I still need to work on but I am proud of the result I  obtained today. I will work on refactoring. The implementations of media queries were important in the making of this project and I am looking forward to keeping increasing my knowledge on this topic.
+Not having any prior experience creating HTML and CSS files before this project made it challenging to create a webpage with all the characteristics that I implemented. I believe that there is so much I still need to work on but I am proud of the result I  obtained today. I will work on refactoring. The implementations of media queries were important in the making of this project and I am looking forward to keep increasing my knowledge on this topic.
