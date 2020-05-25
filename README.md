@@ -9,6 +9,9 @@ The static comp challenge looks like it is based on a webpage structure that foc
 This project has been adapted to meet the requirements of an animal hospital that provides care for small house pets. The website's structure was designed with users in mind. To better understand the needs of the users it was important to talk to potential users as well as with the veterinarians who provide these services.
 
 ![original static comp](https://user-images.githubusercontent.com/56229864/82806887-f5ad6380-9e43-11ea-8ea3-0355a31ea0ad.png)
+
+![Screen Shot 2020-05-25 at 4 58 43 AM](https://user-images.githubusercontent.com/56229864/82807147-73716f00-9e44-11ea-89d1-a1ee54bf8540.png)
+
 ## Webpage Structure
 
 Navigation bar:
