@@ -9,17 +9,20 @@ The static comp challenge looks like it is based on a webpage structure that foc
 This project has been adapted to meet the requirements of an animal hospital that provides care for small house pets. The website's structure was designed with users in mind. To better understand the needs of the users it was  important to talk to potential users as well as with the veterinarians who provide these services.
 
 
-## Webite Screengrabs
+## Webpage Structure
 
 Navigation bar:
 This section of the webpages holds the about, services, appointments, and log-in button. Here I have decided to make use of a single icon in the log-in button instead of using icons on the rest of the buttons to keep the design more minimalistic.
 
 ![Navigation bar](https://user-images.githubusercontent.com/56229864/82798059-410c4580-9e35-11ea-80e7-e81778af5fec.png)
 
-Right after the navigation bar, we can identify the patient's title that defines where the user is located in the website.
+Right after the navigation bar, we can identify the patient's title that indictaes where the user is located in the website.
 
 ![Patients](https://user-images.githubusercontent.com/56229864/82798234-7add4c00-9e35-11ea-9f66-9694475386b4.png)
 
-On the body of the page, the user can look at the current patient and identify a specific pet what might be under special care or undergoing a specific treatment.
+On the page body, the user can find and look at current and/or old patients and identify a specific pet who might be under special care or undergoing a specific treatment.
 #
 ![Main page](https://user-images.githubusercontent.com/56229864/82797390-4026e400-9e34-11ea-8993-37d211e7b074.png)
+
+
+![Screen Shot 2020-05-25 at 3 14 45 AM](https://user-images.githubusercontent.com/56229864/82798573-ec1cff00-9e35-11ea-8261-a4ff494a58a2.png)
