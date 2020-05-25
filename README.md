@@ -34,17 +34,19 @@ The main layout structure use to make this project was CSS grid. This layout was
 
 ![Main container](https://user-images.githubusercontent.com/56229864/82802317-e9bda380-9e3b-11ea-8a86-2636357d52b6.png)
 
-I was able to have more practice with thgrid structure with the informational cards that required careful organization to apply the required properties ans values to the gridto acomplish the desired results.
+I was able to have more practice with the grid structure while making the informational cards, these required careful organization to apply properties and values to the grid and  acomplish the desired results.
 
 ![A container within the container](https://user-images.githubusercontent.com/56229864/82802765-a6b00000-9e3c-11ea-87a8-9d9ca2619e38.png)
 
 ## Media queries
 
-The importance to add responsiveness to the website was accomplished by using media queries. The use of media queries in this project was used to define by a min-width  of 700px.
+The responsiveness to the website was accomplished by using media queries and setting this property to a minimun width of 700px.
 
-![Media queries](https://user-images.githubusercontent.com/56229864/82802953-f55d9a00-9e3c-11ea-81da-61038ba685f8.png)
 
-The main changes that I targeted with media queries was the navigation bar and the body container that needed to become more dynamic with the screen size.
+![Screen Shot 2020-05-25 at 2 55 25 AM](https://user-images.githubusercontent.com/56229864/82803427-bbd95e80-9e3d-11ea-8dc0-5828ef391150.png)
+
+The main changes that I targeted with media queries was the navigation bar and the body container. This two sections needed to become more dynamic with the screen size. On the navigation bar the grid structure changes from `1fr 1fr 1fr` to `1fr 1fr`. This allows for better readability. On the informational card, the main change using media queries was moving the `url` elment to the botton line of the grind. Making such move let the user have more space to read the text.
+
 ![Width less than 700px](https://user-images.githubusercontent.com/56229864/82803216-5dac7b80-9e3d-11ea-94d8-1eb7f1688d4e.png)
 
 ## Reflection
