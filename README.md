@@ -24,5 +24,8 @@ On the page body, the user can find and look at current and/or old patients and 
 #
 ![Main page](https://user-images.githubusercontent.com/56229864/82797390-4026e400-9e34-11ea-8993-37d211e7b074.png)
 
+On the informational card the user finds more buttons to interact with. On the left side of the picture of each patient the **top button** or **diagnsostic** button gives the user the opportunity to find out more about what kind of treatmeant the patiend currently is undertaking as well as the health status. The second buttons or **bill button** lets the user know of courrent bills or past due bills. The third button shows courrent madications prescribed by the doctor.
 
 ![Screen Shot 2020-05-25 at 3 14 45 AM](https://user-images.githubusercontent.com/56229864/82798573-ec1cff00-9e35-11ea-8261-a4ff494a58a2.png)
+
+![Patient's status](https://user-images.githubusercontent.com/56229864/82799942-140d6200-9e38-11ea-97fc-ee94ce90e1a0.png)
