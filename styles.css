@@ -148,7 +148,7 @@ body{
 
 .owner-name {
   grid-area: 5 / span 2 ;
-  margin: 10px;
+  margin: auto;
   align-self: start;
 }
 
@@ -217,7 +217,7 @@ margin-top: -5px;
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~MEDIA QUERIES~~~~~~ */
-@media (max-width: 500px){
+@media (max-width: 800px){
 
   .nav-container {
     width: auto;
@@ -245,6 +245,10 @@ margin-top: -5px;
 
   .grid-button {
     margin: 15px;
+  }
+
+  .diagnosis {
+    grid-area: 6 / 1 / 8 / 3 ;
   }
 
   .url {
