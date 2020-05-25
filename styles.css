@@ -136,6 +136,7 @@ body{
   justify-self: right;
   margin: 15px;
   color: #337CA0;
+  box-shadow: 0px 0px 20px #888888;
 }
 
 .pet-name {
@@ -146,15 +147,14 @@ body{
 }
 
 .owner-name {
-
   grid-area: 5 / span 2 ;
-  margin: 15px;
+  margin: 10px;
   align-self: start;
 }
 
 .url {
 grid-area: 6 / span 2 ;
-justify-conten: end;
+justify-self: end;
 font-size: 10px;
 background-color: #A8B7AB;
 width:90%;
@@ -178,32 +178,32 @@ margin-top: -5px;
   padding: 15px;
   margin-top: 5px;
   margin-bottom: -30px;
+  letter-spacing: 1px;
 }
 
 .fav-treat {
   grid-area: 9 / span 2 ;
   font-size: 10px;
   padding: 15px;
-  margin-top: -15px;
+  margin-top: -20px;
+  letter-spacing: 1px;
 }
 
 .age {
   grid-area: 10 / span 2 ;
-  font-size: 10px;
+  font-size: 12px;
   padding: 15px;
-  margin-top: -35px;
-  margin-bottom: 0;
-  border: 0;
-
+  margin-top: -40px;
+  letter-spacing: 2px;
 }
 
 .age-format {
   grid-area: 11 / span 2 ;
-  font-size: 10px;
+  font-size: 15px;
   justify-self: start;
   align-self: end;
   padding: 15px;
-  margin-top: -55px;
+  margin-top: -120px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~WRAPPER END~~~~~~ */
