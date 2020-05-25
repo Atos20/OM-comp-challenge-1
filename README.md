@@ -13,8 +13,13 @@ This project has been adapted to meet the requirements of an animal hospital tha
 
 Navigation bar:
 This section of the webpages holds the about, services, appointments, and log-in button. Here I have decided to make use of a single icon in the log-in button instead of using icons on the rest of the buttons to keep the design more minimalistic.
+
 ![Navigation bar](https://user-images.githubusercontent.com/56229864/82798059-410c4580-9e35-11ea-80e7-e81778af5fec.png)
+
 Right after the navigation bar, we can identify the patient's title that defines where the user is located in the website.
+
 ![Patients](https://user-images.githubusercontent.com/56229864/82798234-7add4c00-9e35-11ea-9f66-9694475386b4.png)
+
 On the body of the page, the user can look at the current patient and identify a specific pet what might be under special care or undergoing a specific treatment.
+#
 ![Main page](https://user-images.githubusercontent.com/56229864/82797390-4026e400-9e34-11ea-8993-37d211e7b074.png)
